@@ -1,0 +1,289 @@
+.header_img{
+    border-radius: 10% 10% 50% 50% / 0% 0% 15% 15% ;
+    background-color:rgb(219, 244, 254) ; 
+    /* F5F8FE */
+    background-image: url('../../../public//images/image-20427.38571302023-removebg-preview.png');
+    background-repeat: no-repeat; 
+    background-position-x: 80%;
+    height: 70vh !important;
+}
+.header_css{
+    padding: 3rem 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} 
+.header_css_left{
+    width:35rem;
+}
+.header_css_left_heading{
+    font-size: 4.3rem;
+}
+.header_css_left_para{
+    font-size: 1.25rem;
+    font-weight: 400;  
+}
+.header_css_right{
+    width:40rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.calender_left{
+    margin: 0.5rem;
+    background-color: red;
+    height: max-content; 
+    border-radius: 5px;
+}
+.card_head_one{
+    width: 12rem;
+    margin-top: 3rem;
+}
+  
+  .cal{
+    padding: 4px 7px;
+}
+.card_head_two{
+    width: 15rem;   
+    margin-top: 12.3rem;
+    padding: 1rem;
+}
+.head_para{
+    margin-left: 1rem;
+}
+
+
+.calender1{
+    background-color: #F88C3D;
+    height: max-content; 
+    border-radius: 5px;
+}
+
+
+.card_head_three{
+    padding: 0.6rem 0.5rem 0rem 0.5rem;
+    margin-top: 11rem;
+}
+.card_head_three_cal1{
+    padding: 1px 4px;
+}
+.card_head_three_cal2{
+    margin-left: 0.5rem;
+}
+.calender_right_para{
+    font-size: 13px;
+}
+.card_head_two_head{
+    font-size: 14px;
+}
+.card_head_two_para{
+    font-size: 13px;
+}
+.card_head_two_button{
+    padding: 3px 25px;
+}
+.card_head_three_para{
+    font-size: 13px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .header_css{
+        padding: 2rem 2.5rem;
+    }
+    .header_css_left{
+        width:25rem;
+    }
+    .header_css_right{
+        width:30rem;
+    }
+    .header_css_left_heading{
+        font-size: 3rem;
+    }
+    .header_css_left_para{
+        font-size: 1rem;  
+    }
+    .header_img{
+        background-position-x: 90%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header_css{
+        padding: 2rem 2.5rem;
+    }
+    .header_css_left{
+        width:15rem;
+    }
+    .header_css_right{
+        width:25rem;
+    }
+    .header_css_left_heading{
+        font-size: 1.5rem;
+    }
+    .header_css_left_para{
+        font-size: 0.6rem;  
+    }
+    .card_head_one{
+        width: 7rem;
+    }
+    .card_head_two{
+        width: 10rem;
+        padding: 0.5rem 0.7rem;
+    }
+    .card_head_three{
+        width: 9rem;
+    }
+    .calender_right_para{
+        font-size: 7px;
+    }
+    
+    .card_head_two_head{
+        font-size: 8px;
+    }
+    .card_head_two_para{
+        font-size: 8px;
+    }
+    .card_head_two_button{
+        padding: 0px 5px;
+        font-size: 10px;
+    }
+    .head_para{
+        margin-left: 0.3rem;
+    }
+    .card_head_three_cal2{
+        margin-left: 0.2rem;
+    }
+    .card_head_three_para{
+        font-size: 8.5px;
+    }
+    .card_head_three_head{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .header_img{
+    background-position-x: 70%;
+        background-size: 200px 50vh;
+        height: 50vh !important;
+    }
+    .header_css{
+        padding: 1.2rem 1.5rem;
+    }
+    .header_css_left_btn{
+        height: 2rem;
+        font-size: 10px;
+    }
+    .header_css_left{
+        width:7rem;
+    }
+    .header_css_right{
+        width:15rem;
+    }
+    .header_css_left_heading{
+        font-size: 0.9rem;
+    }
+    .header_css_left_para{
+        font-size: 0.4rem;  
+    }
+    .card_head_one{
+        width: 5.5rem;
+        margin-top: 2rem;
+    }
+    .card_head_two{
+        width: 7rem;
+        padding: 0.5rem 0.7rem;
+        margin-top: 6rem;
+    }
+    .card_head_three{
+        width: 6.5rem;
+        margin-top: 2rem;
+    }
+    .calender_right_para{
+        font-size: 5px;
+    }
+    
+    .card_head_two_head{
+        font-size: 5px;
+    }
+    .card_head_two_para{
+        font-size: 7px;
+    }
+    .card_head_two_button{
+        padding: 0px 5px;
+        font-size: 7px;
+    }
+    .head_para{
+        margin-left: 0.2rem;
+    }
+    .card_head_three_cal2{
+        margin-left: 0.1rem;
+    }
+    .card_head_three_para{
+        font-size: 5px;
+    }
+    .card_head_three_head{
+        font-size: 6px;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .header_img{
+        background-size: 175px 50vh;
+    }
+    .header_css{
+        padding: 1rem 1.1rem;
+    }
+    
+    .header_css_left{
+        width:5rem;
+    }
+    .header_css_right{
+        width:15rem;
+    }
+    .header_css_left_heading{
+        font-size: 0.6rem;
+    }
+    .header_css_left_para{
+        font-size: 0.3rem;  
+    }
+    .card_head_one{
+        width: 5.5rem;
+        margin-top: 2rem;
+    }
+    .card_head_two{
+        width: 7rem;
+        padding: 0.5rem 0.7rem;
+        margin-top: 6rem;
+    }
+    .card_head_three{
+        width: 6.5rem;
+        margin-top: 2rem;
+    }
+    .calender_right_para{
+        font-size: 5px;
+    }
+    
+    .card_head_two_head{
+        font-size: 5px;
+    }
+    .card_head_two_para{
+        font-size: 7px;
+    }
+    .card_head_two_button{
+        padding: 0px 5px;
+        font-size: 7px;
+    }
+    .head_para{
+        margin-left: 0.2rem;
+    }
+    .card_head_three_cal2{
+        margin-left: 0.1rem;
+    }
+    .card_head_three_para{
+        font-size: 5px;
+    }
+    .card_head_three_head{
+        font-size: 6px;
+    }
+}

@@ -1,0 +1,37 @@
+
+.Events{
+    text-align: center;
+    margin: 20px 0px;
+}
+.card{
+    border-radius: 18px !important;
+    width: auto !important;
+    height: auto;
+    margin-bottom: 20px !important;
+}
+a{
+    text-decoration: none;
+}
+.cardMonth{
+    color: red;
+    font-size:small;
+}
+.cardDate{
+    font-weight: bold;
+    font-size: 25px;
+}
+.title{
+    font-size: 13px;
+    font-weight: bold;
+}
+.span1{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.eventbutton{
+    text-align: center;
+    margin: 30px 0px;
+}
+.mainContainer{
+    background-color: #cae2f1;
+}

@@ -1,0 +1,26 @@
+.circleicon{height: 70px; width: 70px;  background-color: rgb(127, 210, 255); border-radius: 50%;}
+.Card{box-shadow:10px 10px 10px gray; border-radius: 10px; padding: 10px; max-width: 500px; border-left: 3px solid rgb(88, 88, 240);}
+.btons button{margin-left: 10px !important; border-color: white; color: white; border-radius: 20px; margin-top: 16px;}
+.fbox{color: rgb(92, 240, 240);}
+.iconc{
+    color: #4B93CF; margin-right: 10px;
+ }
+ .inter{
+    color: #10394D;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: -2px;}
+    .imgs img {margin-left: 10px; margin-top: 20px;}
+    .anchors a{margin-left: 37px; cursor: pointer; color: black; font-size: 16px; font-weight: 400;}
+    @media screen and (max-width:576px) {
+        .repon{width: 20rem !important;}
+        .centr{display: flex; justify-content: center;}
+    }
+@media screen and (max-width:993px) {
+    .imgceo{margin-top: 30px;}
+}
+
+
+
+
+

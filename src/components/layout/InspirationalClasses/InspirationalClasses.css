@@ -1,0 +1,74 @@
+.inspirationalClasses{
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  background: #132937;
+  width: auto;
+    padding: 5rem;
+    color: azure;
+    margin: 5rem 0rem;
+}
+.InspirationalClasses_heading{
+text-align: center;
+font-size: larger;
+}
+.inspirationalClasses_button_whole{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2rem 10rem;
+  
+}
+.inspirationalClasses_button {
+  background: transparent;
+  border-radius: 999px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 15px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 14px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 1px solid white;
+  margin: 0.5rem;
+}
+.inspirationalClasses_button:hover{
+  background: rgb(51, 151, 184);
+}
+.inspirationalClasses_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .inspirationalClasses_card{
+    background: white;
+    box-shadow: white 0 10px 20px -10px;
+    
+    color: black;
+    width: 18rem;
+    border-radius: 20px;
+    padding: 1rem;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 1rem;
+}
+    
+/* @media only screen and (max-width: 769px) {
+     .inspirationalClasses_button_whole {
+       overflow-x: scroll;
+       border-radius: 5px;
+     }
+    
+     .inspirationalClasses_button_container {
+       display: inline-flex;
+     }
+    
+     .inspirationalClasses_button {
+       min-width: 150px;
+     }
+    } */
